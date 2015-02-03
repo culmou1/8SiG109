@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3001C40F1A8053F5006FCEBC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3001C40E1A8053F5006FCEBC /* main.cpp */; };
+		3001C4161A80542A006FCEBC /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3001C4151A80542A006FCEBC /* Main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		3001C40B1A8053F5006FCEBC /* 8SiG109 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 8SiG109; sourceTree = BUILT_PRODUCTS_DIR; };
-		3001C40E1A8053F5006FCEBC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3001C4151A80542A006FCEBC /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = "../../../../../../../../../Desktop/Devoir1-8SIF109/Devoir1-8SIF109/Main.cpp"; sourceTree = "<group>"; };
+		3001C4171A805444006FCEBC /* DossierProfesseur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DossierProfesseur.h; path = "../../../../../../../../../Desktop/Devoir1-8SIF109/Devoir1-8SIF109/DossierProfesseur.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,8 @@
 		3001C40D1A8053F5006FCEBC /* 8SiG109 */ = {
 			isa = PBXGroup;
 			children = (
-				3001C40E1A8053F5006FCEBC /* main.cpp */,
+				3001C4171A805444006FCEBC /* DossierProfesseur.h */,
+				3001C4151A80542A006FCEBC /* Main.cpp */,
 			);
 			path = 8SiG109;
 			sourceTree = "<group>";
@@ -118,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3001C40F1A8053F5006FCEBC /* main.cpp in Sources */,
+				3001C4161A80542A006FCEBC /* Main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
